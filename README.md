@@ -22,7 +22,7 @@ Sortlify is a modern, macOS-inspired file organizer for Windows, built with Pyth
 
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/your-username/sortlify.git](https://github.com/DVDHSN/Sortlify)
+   git clone (https://github.com/DVDHSN/Sortlify)
    cd sortlify
    ```
 
