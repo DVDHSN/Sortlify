@@ -1,11 +1,16 @@
 # Sortlify
 
-Sortlify is a modern, macOS-inspired file organizer for Windows, built with Python and PyQt6. It provides an elegant, intuitive UI and smart automation to help you keep your files tidy.
+Sortlify is a modern file management solution with a sleek dark theme, built for efficiency and comfort. Organize, sort, and navigate your files like never before.
 
 ## Features
 
+- **Smart Sorting**: Sort files by name, date modified, and size. Find what you need quickly with flexible sorting options.
+- **Auto Organization**: Organize files into categories like Images, Documents, and more. Keep your files structured automatically.
+- **Dark Theme**: Modern dark theme designed for comfortable usage during long sessions. Easy on the eyes, professional look.
+- **Single Executable (For Windows)**: No complex installation required. Single executable build makes deployment and usage incredibly simple.
+- **File Details**: View comprehensive file details including name, size, and modification date. All the information you need at a glance.
 - **File Explorer View**: Browse files with list and grid/thumbnail views.
-- **Dynamic Sorting & Filtering**: Sort files by name, size, type, or date, and apply filters.
+- **Dynamic Sorting & Filtering**: Filter files by name, size, type, or date for easier viewing
 - **Customizable Themes**: Switch between light and dark modes with accent color choices.
 - **Custom Rules Engine**: Define "if-then" rules for advanced sorting (e.g., if filename contains "invoice," move to Finance).
 - **Customizable Categories**: Add, remove, or edit file categories and their associated extensions.
