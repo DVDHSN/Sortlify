@@ -1,49 +1,80 @@
-# Sortlify
+# 📁 Sortlify
 
-Sortlify is a modern file management solution with a sleek dark theme, built for efficiency and comfort. Organize, sort, and navigate your files like never before.
+**Sortlify** is a modern, AI-powered file organizer built with **Python** and **PyQt6**. It's designed to bring smart, recursive, and elegant automation to your workspace, allowing you to clean up entire directory trees with a single click.
 
-## Features
+---
 
-- **Smart Sorting**: Sort files by name, date modified, and size. Find what you need quickly with flexible sorting options.
-- **Auto Organization**: Organize files into categories like Images, Documents, and more. Keep your files structured automatically.
-- **Dark Theme**: Modern dark theme designed for comfortable usage during long sessions. Easy on the eyes, professional look.
-- **Single Executable (For Windows)**: No complex installation required. Single executable build makes deployment and usage incredibly simple.
-- **File Details**: View comprehensive file details including name, size, and modification date. All the information you need at a glance.
-- **File Explorer View**: Browse files with list and grid/thumbnail views.
-- **Dynamic Sorting & Filtering**: Filter files by name, size, type, or date for easier viewing
-- **Customizable Themes**: Switch between light and dark modes with accent color choices.
-- **Custom Rules Engine**: Define "if-then" rules for advanced sorting (e.g., if filename contains "invoice," move to Finance).
-- **Customizable Categories**: Add, remove, or edit file categories and their associated extensions.
-- **Safe Operation**: Files are moved, not copied, to keep your system clean.
+## 🌟 Core Features
 
-## Getting Started
+- 📂 **Recursive Folder Scanning**  
+  Select a parent folder, and Sortlify will scan through all subfolders to find and organize every file within(WIP)
 
-### Prerequisites
+- 📝 **Interactive Preview & Organize Workflow**  
+  Browse and select a folder to see an interactive preview of how your files will be organized. You can change the target category for any file before committing. No files are moved until you click "Organize".
 
-- Python 3.10+
-- PyQt6
+- 🤖 **AI-Powered Category Suggestions**  
+  Sortlify uses a `scikit-learn` model to suggest categories for your files based on their name and content, helping you make smarter organization decisions.
 
-### Installation
+- 🎨 **Themed UI**  
+  Switch between several modern themes (blue, green, orange, purple, red) to customize the app's appearance.
 
-1. Clone the repository:
-   ```sh
-   git clone (https://github.com/DVDHSN/Sortlify)
-   cd sortlify
-   ```
+- 🛠 **Custom Rules & Categories**  
+  Fine-tune the organization logic by creating custom "if-then" rules and defining new categories with your chosen file extensions.
 
-2. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
-   ```
+---
 
-### Running the App
+## 🧬 Cross-Platform Compatibility
 
-Execute the main script to launch Sortlify:
+Powered by **PyQt6**, Sortlify runs smoothly across major platforms with a native feel:
 
-```sh
-python sortlify.py
+- **Windows**: Optimized with native dialogs and controls.
+- **macOS**: Retina-ready UI with macOS-style behavior.
+- **Linux**: Supports KDE/GNOME with system theme integration.
+
+> All core features work seamlessly across platforms.
+> - To run on Windows, download the `.exe` file from the latest release.
+> - For macOS/Linux users, follow the installation instructions below.
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Python **3.10+**
+- `pip` for package installation
+
+### 🧰 Installation & Usage
+
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/DVDHSN/sortlify.git
+    cd sortlify
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the App**
+    ```bash
+    python sortlify.py
+    ```
+
+### 🏗 Build an Executable (Optional)
+
+You can bundle Sortlify into a single executable using PyInstaller.
+
+```bash
+# Example for building on any platform
+pyinstaller --onefile --windowed --name Sortlify sortlify.py
 ```
 
-## License
+Your executable will be created in the `dist/` folder.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for full details.
