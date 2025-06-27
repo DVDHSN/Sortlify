@@ -1,1 +1,8 @@
 PyQt6
+opencv-python
+python-docx
+PyPDF2
+pillow
+matplotlib
+scikit-learn
+
