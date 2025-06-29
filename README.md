@@ -114,13 +114,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for full 
 
 ## Roadmap
 
-- [] Batch renaming with patterns and templates
-- [] File tagging system for more granular organization beyond just categories
-- [] Full-text search within documents (PDF, Word, etc.)
-- [] Metadata filtering (EXIF data for images, ID3 tags for audio)
-- [] Rules engine for complex organization logic
-- [] Watch folders for automatic organization
-- [] File thumbnails for more file types (PDFs, documents)
-- [] File size visualization (pie charts, bar graphs)
+- [ ] Batch renaming with patterns and templates
+- [ ] File tagging system for more granular organization beyond just categories
+- [ ] Full-text search within documents (PDF, Word, etc.)
+- [ ] Metadata filtering (EXIF data for images, ID3 tags for audio)
+- [ ] Rules engine for complex organization logic
+- [ ] Watch folders for automatic organization
+- [ ] File thumbnails for more file types (PDFs, documents)
+- [ ] File size visualization (pie charts, bar graphs)
 
 
