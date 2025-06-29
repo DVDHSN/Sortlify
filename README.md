@@ -124,14 +124,14 @@ This project is licensed under the MIT License. See the `LICENSE` file for full 
 - [ ] File size visualization (pie charts, bar graphs)
 - [ ] AI-Powered Smart Sort (Llama 3.2 Integration) Enable automatic file organization based on semantic understanding of file names and content using Llama 3.2.
 
-    [ ] Use Llama 3.2 to analyze filenames, document text, and propose custom folder structures
+   - [ ] Use Llama 3.2 to analyze filenames, document text, and propose custom folder structures
 
-    [ ] Optional pairing with TinyViT or LLaVA for image classification fallback
+   - [ ] Optional pairing with TinyViT or LLaVA for image classification fallback
 
-    [ ] “Dry Run” mode to preview changes before applying
+   - [ ] “Dry Run” mode to preview changes before applying
 
-    [ ] Natural language interface: “Organize all invoices by year and client”
+   - [ ] Natural language interface: “Organize all invoices by year and client”
 
-    [ ] Trust feedback system to refine future AI decisions
+   - [ ] Trust feedback system to refine future AI decisions
 
 
