@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for full 
 
 - 🎨 **Theming and Customization**: Make **Sortlify** yours with robust customization options
 
-## Roadmap
+## 📅 Roadmap
 
 - [ ] Batch renaming with patterns and templates
 - [ ] File tagging system for more granular organization beyond just categories
